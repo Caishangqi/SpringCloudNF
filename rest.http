@@ -1,0 +1,7 @@
+GET http://localhost:8001/114514
+
+###
+POST localhost:8001/decreaseNumber
+Content-Type: application/json
+
+[{"id":1, "name":"abc", "number":23},{"id":2, "name":"def", "number":11}]

@@ -21,6 +21,7 @@
         <module>sp01-commons</module>
         <module>sp02-itemservice</module>
         <module>sp03-userservice</module>
+        <module>sp04-orderservice</module>
     </modules>
 
     <properties>

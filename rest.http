@@ -8,3 +8,9 @@ Content-Type: application/json
 
 ###
 GET http://localhost:8201/123abc
+
+###
+GET http://localhost:8201/add
+
+###
+GET http://localhost:8101/8/score?score=1000

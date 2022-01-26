@@ -19,7 +19,8 @@ import java.util.List;
 1. 调用哪个服务
 2. 调用这个服务的哪个路径
 3. 向这个路径提交什么参数
- */
+*/
+
 @FeignClient(name = "ITEM-SERVICE")
 public interface ItemClient {
 

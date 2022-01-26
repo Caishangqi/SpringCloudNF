@@ -1,16 +1,61 @@
-GET http://localhost:8001/114514
+GET http://localhost:8001/uyhg43t34t4y5
 
 ###
-POST localhost:8001/decreaseNumber
+POST http://localhost:8001/decreaseNumber
 Content-Type: application/json
 
 [{"id":1, "name":"abc", "number":23},{"id":2, "name":"def", "number":11}]
 
 ###
-GET http://localhost:8201/123abc
+GET http://localhost:8101/8
+###
+GET http://localhost:8101/8/score?score=1000
 
+###
+GET http://localhost:8201/uy54gt43f34t
 ###
 GET http://localhost:8201/add
 
+########################################################################
+
+GET http://localhost:3001/item-service/uyhg43t34t4y5
 ###
-GET http://localhost:8101/8/score?score=1000
+GET http://localhost:3001/item-service/uyhg43t34t4y5?token=uy5uhy4tyg
+###
+POST http://localhost:3001/item-service/decreaseNumber
+Content-Type: application/json
+
+[{"id":1, "name":"abc", "number":23},{"id":2, "name":"def", "number":11}]
+
+###
+GET http://localhost:3001/user-service/66
+###
+GET http://localhost:3001/user-service/8/score?score=1000
+
+###
+GET http://localhost:3001/order-service/uy54gt43f34t
+###
+GET http://localhost:3001/order-service/add
+
+###
+GET http://localhost:3002/item-service/uyhg43t34t4y5?token=uy5uhy4tyg
+###
+POST http://localhost:3002/item-service/decreaseNumber
+Content-Type: application/json
+
+[{"id":1, "name":"abc", "number":23},{"id":2, "name":"def", "number":11}]
+
+###
+GET http://localhost:3002/user-service/77
+###
+GET http://localhost:3002/user-service/8/score?score=1000
+
+###
+GET http://localhost:3002/order-service/uy54gt43f34t
+###
+GET http://localhost:3002/order-service/add
+
+###
+POST http://localhost:6001/actuator/bus-refresh
+###
+POST http://localhost:6001/actuator/bus-refresh/user-service

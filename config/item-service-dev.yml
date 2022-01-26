@@ -4,20 +4,20 @@
 
 # 向注册表注册的名称
 spring:
-  zipkin:
-    sender:
-      type: rabbit
-  rabbitmq:
-    host: 192.168.64.140     # wht6.cn
-    port: 5672
-    username: admin
-    password: admin
+#  zipkin:
+#    sender:
+#      type: rabbit
+#  rabbitmq:
+#    host: 192.168.64.140     # wht6.cn
+#    port: 5672
+#    username: admin
+#    password: admin
   application:
     name: item-service
 
   cloud:
     config:
-      override-none: true
+      override-none: true #从远程拉取的内容不会覆盖启动参数
 # item 8001,   user 8101,   order 8201
 server:
   port: 8001

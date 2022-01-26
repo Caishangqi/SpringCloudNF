@@ -1,17 +1,18 @@
 spring:
-  rabbitmq:
-    host: 192.168.64.140     # wht6.cn
-    port: 5672
-    username: admin
-    password: admin
+#  zipkin:
+#    sender:
+#      type: rabbit
+#  rabbitmq:
+#    host: 192.168.64.140     # wht6.cn
+#    port: 5672
+#    username: admin
+#    password: admin
   application:
     name: user-service
   cloud:
     config:
       override-none: true
-  zipkin:
-    sender:
-      type: rabbit
+
 
 # item 8001,   user 8101,   order 8201
 server:

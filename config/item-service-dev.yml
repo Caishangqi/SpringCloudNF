@@ -7,11 +7,11 @@ spring:
 #  zipkin:
 #    sender:
 #      type: rabbit
-#  rabbitmq:
-#    host: 192.168.64.140     # wht6.cn
-#    port: 5672
-#    username: admin
-#    password: admin
+  rabbitmq:
+    host: 192.168.64.140     # wht6.cn
+    port: 5672
+    username: admin
+    password: admin
   application:
     name: item-service
 

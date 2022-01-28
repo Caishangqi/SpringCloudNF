@@ -1,0 +1,19 @@
+# bootstrap.yml
+# 引导配置，应用启动之前会先执行引导配置
+# 应用启动时才会执行 application.yml
+
+# 从配置中心下载配置，再使用下载的配置启动应用
+# 1.连接eureka 2.从注册表获得config-server的地址 3.从config-server下载配置文件
+eureka:
+  client:
+    service-url:
+      defaultZone: http://eureka1:2001/eureka,http://eureka2:2002/eureka
+spring:
+  cloud:
+    config:
+      discovery:
+        enabled: true
+        service-id: CONFIG-SERVER
+      # item-service-dev.yml
+      name: item-service
+      profile: dev

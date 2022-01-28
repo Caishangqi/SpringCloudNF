@@ -27,6 +27,7 @@ sp:
              {\"id\":55, \"username\":\"5555555\",\"password\":\"5555555\"},
              {\"id\":77, \"username\":\"777777\",\"password\":\"777777\"},
              {\"id\":99, \"username\":\"999999\",\"password\":\"999999\"},
+             {\"id\":114, \"username\":\"2470\",\"password\":\"3568\"},
              {\"id\":9, \"username\":\"ghi\",\"password\":\"789\"}]"
 # /eureka 子路径是客户端模块调用的 REST API 路径
 # 不支持浏览器访问

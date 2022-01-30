@@ -4,9 +4,9 @@
 
 # 向注册表注册的名称
 spring:
-#  zipkin:
-#    sender:
-#      type: rabbit
+  zipkin:
+    sender:
+      type: rabbit
   rabbitmq:
     host: 192.168.64.140     # wht6.cn
     port: 5672
